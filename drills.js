@@ -103,7 +103,9 @@ $(function () {
             timeElapsed += activityDuration;
 
             say(getCommand(activityDuration));
-            interval = setInterval(loop, activityDuration * 1000);
+            interval = setInterval(loop, activityDuration * 
+                                   
+                                   00);
         };
 
         interval = setInterval(loop, activityDuration * 1000);
